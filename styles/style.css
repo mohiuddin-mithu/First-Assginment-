@@ -5,10 +5,6 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
-
-section{
-    padding: 80px 90px;
-}
 /*========= common css styles ======== */
 a{
     text-decoration: none;
@@ -39,7 +35,8 @@ a{
 .banner-content .banner-title{
     font-weight: 700;
     font-size: 65px;
-    line-height: 76px; 
+    line-height: 76px;
+    color: #151414; 
 }
 .banner-content p{
     font-size: 17px;
@@ -48,6 +45,9 @@ a{
     margin-left: 700px;
 }
 /*========= about part styles  start======== */ 
+#about{
+    padding: 100px 0 50px 0;
+}
 .about-content{
     display: flex;
     align-items: center;
@@ -69,6 +69,7 @@ a{
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
+    color: #151414;
 }
 .about-content .details p{
     font-weight: 400;
@@ -102,6 +103,7 @@ a{
     font-size: 40px;
     line-height: 47px;
     margin-bottom: 60px;
+    color: #151414;
 }
 .plan .plan-items{
     display: flex;
@@ -127,4 +129,54 @@ a{
     line-height: 29px;
 }
 /*========= about part styles  end======== */
+
+/*========= blog part styles  start======== */
+#blog-section{
+    margin-bottom: 200px;
+}
+.blog{
+    max-width: 1170px;
+    margin: auto;
+}
+.blog-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 80px;
+    color: #151414;
+}
+.blog .blog-item{ 
+    float: left;
+    width: 30.33%;
+    margin-right: 3%;
+}
+.blog .blog-item img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.blog .blog-item .blog-content{
+    padding-left: 10px;
+    border-right: 2px solid #7372723a;
+    border-left: 2px solid #7372723a;
+    border-bottom: 2px solid #7372723a;
+}
+.blog .blog-item .blog-content h4{
+    font-weight: 600;
+    font-size: 30px;
+    color: #151414eb;
+}
+.blog .blog-item .blog-content p{
+    font-weight: 400;
+    font-size: 16px;
+    color:  #737272;
+    margin: 14px 0;
+}
+.blog-btn{
+    margin-bottom: 40px ;
+    display: inline-block;
+    color: #ff5e00;
+    font-size: 14px;
+}
+/*========= blog part styles  end======== */
 
