@@ -10,17 +10,19 @@ a{
     text-decoration: none;
 }
 .btn{
-    padding: 14px 22px;
-    background-color: #ff5e00;
-    color: #fff;
+    padding: 18px 30px;
     display: inline-block;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: 600;
     text-transform: capitalize;
+}
+.clr{
+    clear: both;
 }
 /*========= banner styles  start======== */
 #banner{
-    height: 100vh;
+    height: 800px;
     background-image: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,6 +34,10 @@ a{
     text-align: right;
     max-width: 1170px;
 }
+.banner-content .banner-btn{
+    background-color: #ff5e00;
+    color: #fff;
+}
 .banner-content .banner-title{
     font-weight: 700;
     font-size: 65px;
@@ -42,7 +48,7 @@ a{
     font-size: 17px;
     line-height: 26px;
     margin: 20px 0 20px 0;
-    margin-left: 700px;
+    padding-left: 700px;
 }
 /*========= about part styles  start======== */ 
 #about{
@@ -91,7 +97,7 @@ a{
     line-height: 26px;
     font-size: 16px;
 }
-/*===== paln style ====== */
+/*===== plan style ====== */
 .plan {
     max-width: 1170px;
     padding: 80px 0;
@@ -132,7 +138,7 @@ a{
 
 /*========= blog part styles  start======== */
 #blog-section{
-    margin-bottom: 200px;
+   padding-bottom: 100px;
 }
 .blog{
     max-width: 1170px;
@@ -156,7 +162,7 @@ a{
     border-radius: 10px 10px 0 0;
 }
 .blog .blog-item .blog-content{
-    padding-left: 10px;
+    padding: 15px;
     border-right: 2px solid #7372723a;
     border-left: 2px solid #7372723a;
     border-bottom: 2px solid #7372723a;
@@ -177,6 +183,110 @@ a{
     display: inline-block;
     color: #ff5e00;
     font-size: 14px;
+    font-weight: 500;
 }
 /*========= blog part styles  end======== */
+
+/*========= call part styles  start======== */
+    #call-section{
+        padding: 100px 0;
+    }
+    #call-section .call-content{
+        max-width: 1170px;
+        margin: auto;
+        background-image: url(../images/watch.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 70px;
+        border-radius: 8px;
+        position: relative;
+        z-index: 2;
+        box-sizing: border-box;
+        
+    }
+    #call-section .call-content .overly{
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: linear-gradient( to right, #ff5e00, #ff5e0042);
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        border-radius: 8px;
+    }
+    #call-section .call-content h3{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47px;
+        color:#fff;
+        margin-bottom: 14px;
+    }
+    #call-section .call-content .call-btn{
+        background-color: #fff ;
+        color: #ff5e00;
+    }
+/*========= call part styles  end======== */
+
+/*========= footer part styles  start======== */
+#footer{
+    padding: 100px 0;
+    background: #000;
+    color: #fff;
+}
+.footer-content{
+    width: 1170px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer .footer-content .address{
+    float: left;
+    width: 60%;
+}
+#footer .footer-content .address h3{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;    
+}
+#footer .footer-content .address p {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 20px 0 28px 0;
+    width: 500px;
+    line-height: 26px;
+}
+#footer .footer-content .address .social{
+    margin-top: 30px;
+}
+#footer .footer-content .address .social img{
+    margin-right: 10px;
+}
+
+#footer .footer-content .form{
+    float: left;
+    width: 40%;
+    margin-top: -115px;
+    padding-left: 200px;
+}
+
+#footer .footer-content .form .subscribe{
+    background-color: #fff ;
+    color: #ff5e00; 
+}
+
+#footer .footer-content .form h3{
+    font-size: 26px;
+}
+input{
+    padding: 20px 50px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.733);
+    border-radius: 10px;
+    margin: 20px 0;
+    color: #fff;
+    font-size: 20px;
+}
+/*========= footer part styles  end======== */
 
