@@ -5,13 +5,19 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+img{
+    width: 100%;
+}
+section{
+    padding: 80px 90px;
+}
 /*========= common css styles ======== */
 a{
     text-decoration: none;
 }
 .btn{
-    padding: 12px 18px;
-    background-color: red;
+    padding: 14px 22px;
+    background-color: #ff5e00;
     color: #fff;
     display: inline-block;
     border-radius: 5px;
@@ -43,10 +49,50 @@ a{
     margin: 20px 0 20px 0;
     margin-left: 700px;
 }
+/*========= about part styles  start======== */ 
 
 
-
-
+.about-content{
+    display: flex;
+    align-items: center;
+    max-width: 1170px;
+    margin: auto;
+}
+.about-content .image img{
+    width: 100%;
+}
+.about-content .image{
+    width: 50%;
+}
+.about-content .details{
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+.about-content .details h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+.about-content .details p{
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 16px;
+    margin: 20px 0 20px 0;
+}
+.about-content .details .item{
+    margin-bottom: 10px;
+}
+.about-content .details .item .check-list{
+    color: #ff5e00;
+    margin-right: 8px;
+    font-weight: 600;
+}
+.about-content .details .item .list-content{
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 16px;
+}
 
 
 
